@@ -12,19 +12,35 @@ or
 RESULTS:
 
 TX
-Fox@MADAN-W10 ~/workspace/ChildThread/build
-$ ./ChildThread
-Process Report A
-Process Report B
-I don't know what this: 'Y' report is
-I don't know what this: 'Z' report is
-I don't know what this: 'M' report is
+Starting Server
+
+*****  creating report table  ******
+
+Process Report A: Hello From Common A
+Process Report B: Hello From Common B
+/nI don't know what this report: '100'  is
+It's data is: Hello From IL X
+/nI don't know what this report: '101'  is
+It's data is: Hello From IL Y
+/nI don't know what this report: '102'  is
+It's data is: Hello From IL Z
+/nI don't know what this report: '103'  is
+It's data is: What is this?
+
+
 
 
 IL:
-Process Report A in ILLINOIS
-Process Report B
-Process Report Y
-Process Report Z
-I don't know what this: 'M' report is.
+Starting Server
+
+*****  creating report table  ******
+
+Process Report A in ILLINOIS: Hello From Common A
+Process Report B: Hello From Common B
+Process Report X: Hello From IL X
+Process Report Y: Hello From IL Y
+Process Report Z: Hello From IL Z
+/nI don't know what this report: '103'  is
+It's data is: What is this?
+
 
