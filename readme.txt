@@ -1,3 +1,7 @@
+This program was used to show how to "overload " a report.  In this case it was reportA().
+This program recieves a report ID and that becomes the index into the array that contains the information of that report.
+Including the funtion pointer.
+
 to run :
 install cmake
 go to build directory
