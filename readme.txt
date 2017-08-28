@@ -5,6 +5,10 @@ go to build directory
 or
 > cmake -DSTATE:STRING="IL" .. // to run  ILLINOIS
 
+//  if you want to debug add the following before the ".." in the cmake statement: 
+//  -DCMAKE_BUILD_TYPE=Debug
+
+
 > make
 > ./ChildThread
 
@@ -28,8 +32,6 @@ It's data is: Hello From IL Z
 It's data is: What is this?
 
 
-
-
 IL:
 Starting Server
 
@@ -42,5 +44,4 @@ Process Report Y: Hello From IL Y
 Process Report Z: Hello From IL Z
 /nI don't know what this report: '103'  is
 It's data is: What is this?
-
 

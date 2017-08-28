@@ -2,5 +2,5 @@
 #include "event.h"
 int reportA(EventInfo *pEvent)
 {
-	printf("Process Report A in ILLINOIS: %s\n",pEvent->data);
+	printf("Process Special Report A in ILLINOIS: %s\n",pEvent->data);
 }

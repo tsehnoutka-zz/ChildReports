@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Reports.h"
+#include "ChildThreadSpecial.h"
 //  Default
 int checkForSpclCode(EventInfo *pEvent)
 {
@@ -7,5 +7,12 @@ int checkForSpclCode(EventInfo *pEvent)
 }
 int initSpecial(){
     return 0;
+}
+int getSpecialReportCount()
+{
+    return 0;
+}
+ReportInfo* getSpecialReports(){
+    return NULL;
 }
 

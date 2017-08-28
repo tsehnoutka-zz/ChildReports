@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "event.h"
+
 int reportA(EventInfo *pEvent)
 {
-	printf("Process Report A: %s\n",pEvent->data);
+	printf("Process Common Report A: %s\n",pEvent->data);
 }
