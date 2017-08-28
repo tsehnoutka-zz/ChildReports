@@ -17,7 +17,7 @@ or
 > ./ChildThread
 
 
-RESULTS:
+SAMPLE RESULTS:
 
 TX
 Starting Server
